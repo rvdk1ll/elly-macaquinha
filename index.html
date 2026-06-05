@@ -1,0 +1,142 @@
+<div class="macaco-decor decor1">🐵</div>
+<div class="macaco-decor decor2">🐵</div>
+<div class="macaco-decor decor3">🐵</div>
+<div class="macaco-decor decor4">🐵</div>
+
+<!-- TELA INICIAL -->
+
+<div id="telaTexto">
+
+  <div class="caixa">
+
+    <h1>Para a Elly 💙</h1>
+
+    <p>
+      A cor azul simboliza tranquilidade, serenidade e harmonia,
+      e por ironia do destino, isso é um pouquinho de tudo que sinto quando estou com você.
+    </p>
+
+    <p>
+      Nunca pensei que conheceria alguém que faria a própria paz de espírito
+      (sim, isso é uma referência ao azul que simboliza espiritualidade)
+      se fundir com a minha que é tão cinza,
+      o que me torna um
+      <span class="azul-escuro">azul escuro</span>.
+    </p>
+
+    <p>
+      Mas e quanto aos macacos?
+      Um fato muito fofo sobre macacos filhotes é que eles costumam se agarrar à mãe
+      o tempo todo nos primeiros meses de vida.
+    </p>
+
+    <p>
+      Quando ficam assustados, cansados ou inseguros,
+      procuram imediatamente o abraço dela para se sentirem protegidos.
+    </p>
+
+    <p>
+      E por mais irônico ou idiota que soe,
+      às vezes me sinto um filhote de macaco,
+      com você representando a parte materna.
+    </p>
+
+    <div class="instrucao">
+      ☔ Proteja o macaquinho da chuva durante 30 segundos.
+    </div>
+
+    <button onclick="iniciarJogo()">
+      🐵 Começar
+    </button>
+
+  </div>
+
+</div>
+
+<!-- JOGO -->
+
+<div id="game">
+
+  <div id="hud">
+    ☔ Proteja o macaquinho
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+</div>
+
+<!-- DERROTA -->
+
+<div id="derrota">
+
+  <div class="carta">
+
+    <h2>🥺 O macaquinho ficou molhado</h2>
+
+    <p>
+      Parece que ele ainda precisa de um pouco mais de proteção.
+    </p>
+
+    <button onclick="reiniciarJogo()">
+      🐵 Tentar novamente
+    </button>
+
+  </div>
+
+</div>
+
+<!-- VITÓRIA -->
+
+<div id="vitoria">
+
+  <div class="carta">
+
+    <div class="trofeu">
+      🏆🐵💙
+    </div>
+
+    <h2>Você conseguiu!</h2>
+
+    <p>
+      agradeço aos deuses dos macacos por terem me trazido uma
+      <span class="macaquinha-azul">
+        macaquinha azul
+      </span>
+      igual você — essa é a espécie mais rara dos macacos, afinal.
+    </p>
+
+    <p>
+      Obrigado por existir, Elly. 🐵💙
+    </p>
+
+    <p>
+      Você trouxe um pouquinho de azul para uma alma que antes era tão cinza.
+    </p>
+
+    <p>
+      E talvez essa seja a maior ironia de todas:
+      você me fez encontrar tranquilidade justamente quando eu menos esperava.
+    </p>
+
+    <iframe
+      style="border-radius:12px; margin-top:20px;"
+      src="https://open.spotify.com/embed/track/0zLs0xjw4MYcMiXHsOvSgk"
+      width="100%"
+      height="152"
+      frameborder="0"
+      allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy">
+    </iframe>
+
+    <button onclick="location.reload()">
+      💙 fim.
+    </button>
+
+  </div>
+
+</div>
+
+<!-- EFEITOS -->
+
+<div id="coracoes"></div>
